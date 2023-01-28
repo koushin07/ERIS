@@ -3,8 +3,8 @@ FROM richarvey/nginx-php-fpm:1.7.2
 COPY . .
 
 
-# Latest release
-COPY --from=composer/composer:latest-bin /composer /usr/bin/composer
+# Specific release
+COPY --from=composer/composer:1-bin /composer /usr/bin/composer
 
 # Image config
 ENV SKIP_COMPOSER 1
