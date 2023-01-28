@@ -1,4 +1,4 @@
-FROM php:8.0.2-cli
+FROM richarvey/nginx-php-fpm:1.7.2
 
 COPY . .
 
