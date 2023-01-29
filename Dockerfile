@@ -5,6 +5,10 @@ COPY . .
 RUN apk add --no-cache ${PHPIZE_DEPS} && \
     pecl install ds && \
     docker-php-ext-enable ds
+    
+RUN composer install --optimize-autoloader --no-dev
+RUN npm install
+
 
 
 # Image config
