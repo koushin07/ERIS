@@ -3,10 +3,7 @@ FROM richarvey/nginx-php-fpm:latest
 COPY . .
 
    
-# Install npm
-RUN apt-get update && \
-    apt-get install -y npm && \
-    npm install
+COPY ./public /var/www/html/public
 
 # Image config
 ENV SKIP_COMPOSER 1
