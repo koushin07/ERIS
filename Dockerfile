@@ -3,7 +3,7 @@ FROM richarvey/nginx-php-fpm:latest
 COPY . .
 
    
-RUN apt-get update && apt-get install -y nodejs
+RUN apk add --update nodejs nodejs-npm
 
 
 # Image config
