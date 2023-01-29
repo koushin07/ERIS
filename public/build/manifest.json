@@ -7,24 +7,28 @@
     "file": "assets/DILG.681dd9c8.png",
     "src": "public/landingpage/logos/agencies/DILG.png"
   },
-  "public/landingpage/logos/agencies/OCD.png": {
-    "file": "assets/OCD.9cefe553.png",
-    "src": "public/landingpage/logos/agencies/OCD.png"
-  },
   "public/landingpage/logos/agencies/DOH.png": {
     "file": "assets/DOH.63aaa75f.png",
     "src": "public/landingpage/logos/agencies/DOH.png"
   },
+  "public/landingpage/logos/agencies/OCD.png": {
+    "file": "assets/OCD.9cefe553.png",
+    "src": "public/landingpage/logos/agencies/OCD.png"
+  },
   "public/landingpage/logos/agencies/PNP.png": {
     "file": "assets/PNP.ba2f65d2.png",
     "src": "public/landingpage/logos/agencies/PNP.png"
+  },
+  "public/landingpage/loginbackground.png": {
+    "file": "assets/loginbackground.8bf34e11.png",
+    "src": "public/landingpage/loginbackground.png"
   },
   "resources/css/eprris.png": {
     "file": "assets/eprris.3e60aef8.png",
     "src": "resources/css/eprris.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app.027fc9ac.js",
+    "file": "assets/app.4093ea43.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
@@ -80,25 +84,25 @@
     ]
   },
   "resources/js/Pages/AccountPage.vue": {
-    "file": "assets/AccountPage.f965d773.js",
+    "file": "assets/AccountPage.af693afe.js",
     "src": "resources/js/Pages/AccountPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_ContentBox.31243bc9.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_ContentBox.6aa44b1c.js",
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
-  "_MunicipalityLayout.b9816a59.js": {
-    "file": "assets/MunicipalityLayout.b9816a59.js",
+  "_MunicipalityLayout.92b79982.js": {
+    "file": "assets/MunicipalityLayout.92b79982.js",
     "imports": [
       "resources/js/app.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ],
@@ -106,8 +110,8 @@
       "assets/MunicipalityLayout.04b2e9cc.css"
     ]
   },
-  "_ContentBox.31243bc9.js": {
-    "file": "assets/ContentBox.31243bc9.js",
+  "_ContentBox.6aa44b1c.js": {
+    "file": "assets/ContentBox.6aa44b1c.js",
     "imports": [
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js"
@@ -119,15 +123,15 @@
   "__plugin-vue_export-helper.cdc0426e.js": {
     "file": "assets/_plugin-vue_export-helper.cdc0426e.js"
   },
-  "_PendingTransactions.4e98a45c.js": {
-    "file": "assets/PendingTransactions.4e98a45c.js",
+  "_PendingTransactions.b0a53db4.js": {
+    "file": "assets/PendingTransactions.b0a53db4.js",
     "imports": [
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js"
     ]
   },
-  "_Dropdown.6a0edb48.js": {
-    "file": "assets/Dropdown.6a0edb48.js",
+  "_Dropdown.38f40bcb.js": {
+    "file": "assets/Dropdown.38f40bcb.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -139,165 +143,165 @@
     ]
   },
   "resources/js/Pages/Admin/CreateMunicipalityPage.vue": {
-    "file": "assets/CreateMunicipalityPage.27f84b4f.js",
+    "file": "assets/CreateMunicipalityPage.717a11a7.js",
     "src": "resources/js/Pages/Admin/CreateMunicipalityPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "resources/js/app.js",
-      "_MunicipalityList.7fccfadf.js",
-      "_ProvinceList.31f37863.js",
-      "_AdminLayout.5b5996a3.js",
+      "_MunicipalityList.ae75e7b7.js",
+      "_ProvinceList.f48fb055.js",
+      "_AdminLayout.8e413472.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js",
-      "_Dropdown.6a0edb48.js",
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
-  "_InputError.6e8e5f7e.js": {
-    "file": "assets/InputError.6e8e5f7e.js",
+  "_InputError.0fe2a68f.js": {
+    "file": "assets/InputError.0fe2a68f.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_TextInput.c1c642c1.js": {
-    "file": "assets/TextInput.c1c642c1.js",
+  "_TextInput.ea075d2c.js": {
+    "file": "assets/TextInput.ea075d2c.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_PrimaryButton.f80cd7f3.js": {
-    "file": "assets/PrimaryButton.f80cd7f3.js",
+  "_PrimaryButton.4f7f1a0a.js": {
+    "file": "assets/PrimaryButton.4f7f1a0a.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "_MunicipalityList.7fccfadf.js": {
-    "file": "assets/MunicipalityList.7fccfadf.js",
+  "_MunicipalityList.ae75e7b7.js": {
+    "file": "assets/MunicipalityList.ae75e7b7.js",
     "imports": [
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js",
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js",
       "resources/js/app.js"
     ]
   },
-  "_ProvinceList.31f37863.js": {
-    "file": "assets/ProvinceList.31f37863.js",
+  "_ProvinceList.f48fb055.js": {
+    "file": "assets/ProvinceList.f48fb055.js",
     "imports": [
       "resources/js/app.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js"
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js"
     ]
   },
-  "_AdminLayout.5b5996a3.js": {
-    "file": "assets/AdminLayout.5b5996a3.js",
+  "_AdminLayout.8e413472.js": {
+    "file": "assets/AdminLayout.8e413472.js",
     "imports": [
-      "_Dropdown.6a0edb48.js",
+      "_Dropdown.38f40bcb.js",
       "resources/js/app.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
-  "_combobox.6aae7dde.js": {
-    "file": "assets/combobox.6aae7dde.js",
+  "_combobox.8fa2df8c.js": {
+    "file": "assets/combobox.8fa2df8c.js",
     "imports": [
-      "_transition.b8c95726.js",
+      "_transition.550b21f7.js",
       "resources/js/app.js"
     ]
   },
-  "_transition.b8c95726.js": {
-    "file": "assets/transition.b8c95726.js",
+  "_transition.550b21f7.js": {
+    "file": "assets/transition.550b21f7.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
   "resources/js/Pages/Admin/CreateProvincePage.vue": {
-    "file": "assets/CreateProvincePage.2416665b.js",
+    "file": "assets/CreateProvincePage.c2724c2f.js",
     "src": "resources/js/Pages/Admin/CreateProvincePage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "resources/js/app.js",
-      "_ProvinceList.31f37863.js",
-      "_AdminLayout.5b5996a3.js",
+      "_ProvinceList.f48fb055.js",
+      "_AdminLayout.8e413472.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js",
-      "_Dropdown.6a0edb48.js",
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Admin/DashboardPage.vue": {
-    "file": "assets/DashboardPage.5f0e556f.js",
+    "file": "assets/DashboardPage.f3f04821.js",
     "src": "resources/js/Pages/Admin/DashboardPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AdminLayout.5b5996a3.js",
-      "_auto.2566e592.js",
+      "_AdminLayout.8e413472.js",
+      "_auto.c60c8fcb.js",
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js",
-      "_Dropdown.6a0edb48.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
-  "_auto.2566e592.js": {
-    "file": "assets/auto.2566e592.js",
+  "_auto.c60c8fcb.js": {
+    "file": "assets/auto.c60c8fcb.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
   "resources/js/Pages/Admin/EquipmentBackTrack.vue": {
-    "file": "assets/EquipmentBackTrack.13424250.js",
+    "file": "assets/EquipmentBackTrack.5e9898bb.js",
     "src": "resources/js/Pages/Admin/EquipmentBackTrack.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ProvinceLayout.4c891ccd.js",
-      "_MunicipalityLayout.b9816a59.js",
+      "_ProvinceLayout.511325a9.js",
+      "_MunicipalityLayout.92b79982.js",
       "resources/js/app.js",
-      "_ContentBox.31243bc9.js",
-      "_StatusModal.48d03335.js",
-      "_Pagination.0e0edfff.js",
+      "_ContentBox.6aa44b1c.js",
+      "_StatusModal.d03e5bad.js",
+      "_Pagination.6d72d61b.js",
       "_moment.9709ab41.js",
-      "_AdminLayout.5b5996a3.js",
+      "_AdminLayout.8e413472.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/EquipmentBackTrack.66c5e815.css"
     ]
   },
-  "_ProvinceLayout.4c891ccd.js": {
-    "file": "assets/ProvinceLayout.4c891ccd.js",
+  "_ProvinceLayout.511325a9.js": {
+    "file": "assets/ProvinceLayout.511325a9.js",
     "imports": [
       "resources/js/app.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
-  "_StatusModal.48d03335.js": {
-    "file": "assets/StatusModal.48d03335.js",
+  "_StatusModal.d03e5bad.js": {
+    "file": "assets/StatusModal.d03e5bad.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ],
     "css": [
       "assets/StatusModal.00f35c69.css"
     ]
   },
-  "_Pagination.0e0edfff.js": {
-    "file": "assets/Pagination.0e0edfff.js",
+  "_Pagination.6d72d61b.js": {
+    "file": "assets/Pagination.6d72d61b.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -305,66 +309,66 @@
   "_moment.9709ab41.js": {
     "file": "assets/moment.9709ab41.js"
   },
-  "_dialog.aec603e9.js": {
-    "file": "assets/dialog.aec603e9.js",
+  "_dialog.cf43474d.js": {
+    "file": "assets/dialog.cf43474d.js",
     "imports": [
-      "_transition.b8c95726.js",
+      "_transition.550b21f7.js",
       "resources/js/app.js"
     ]
   },
   "resources/js/Pages/Admin/HistoricalPage.vue": {
-    "file": "assets/HistoricalPage.1f1cba03.js",
+    "file": "assets/HistoricalPage.657b9463.js",
     "src": "resources/js/Pages/Admin/HistoricalPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AdminLayout.5b5996a3.js",
-      "_ContentBox.31243bc9.js",
-      "_Modal.6cc3e75f.js",
+      "_AdminLayout.8e413472.js",
+      "_ContentBox.6aa44b1c.js",
+      "_Modal.41f6a2c2.js",
       "_moment.9709ab41.js",
       "resources/js/app.js",
-      "_EditHistory.169ed0a6.js",
+      "_EditHistory.63725f56.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_Dropdown.6a0edb48.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/HistoricalPage.aa33a23a.css"
     ]
   },
-  "_Modal.6cc3e75f.js": {
-    "file": "assets/Modal.6cc3e75f.js",
+  "_Modal.41f6a2c2.js": {
+    "file": "assets/Modal.41f6a2c2.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
-  "_EditHistory.169ed0a6.js": {
-    "file": "assets/EditHistory.169ed0a6.js",
+  "_EditHistory.63725f56.js": {
+    "file": "assets/EditHistory.63725f56.js",
     "imports": [
       "resources/js/app.js"
     ]
   },
   "resources/js/Pages/Admin/InventoryPage.vue": {
-    "file": "assets/InventoryPage.86b1c791.js",
+    "file": "assets/InventoryPage.b6243349.js",
     "src": "resources/js/Pages/Admin/InventoryPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_CreateModal.8cd25677.js",
-      "_ContentBox.31243bc9.js",
-      "_Table.1a3b4bda.js",
-      "_AdminLayout.5b5996a3.js",
-      "_Pagination.0e0edfff.js",
-      "_auto.2566e592.js",
-      "_Dropdown.6a0edb48.js",
-      "_InvoiceModal.b23e2356.js",
+      "_CreateModal.3c7e8465.js",
+      "_ContentBox.6aa44b1c.js",
+      "_Table.b2ebaf81.js",
+      "_AdminLayout.8e413472.js",
+      "_Pagination.6d72d61b.js",
+      "_auto.c60c8fcb.js",
+      "_Dropdown.38f40bcb.js",
+      "_InvoiceModal.26281b50.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
       "_eprris.ccf75d97.js"
     ],
     "css": [
@@ -372,124 +376,124 @@
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
-  "_CreateModal.8cd25677.js": {
-    "file": "assets/CreateModal.8cd25677.js",
+  "_CreateModal.3c7e8465.js": {
+    "file": "assets/CreateModal.3c7e8465.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
-  "_Table.1a3b4bda.js": {
-    "file": "assets/Table.1a3b4bda.js",
+  "_Table.b2ebaf81.js": {
+    "file": "assets/Table.b2ebaf81.js",
     "imports": [
       "resources/js/app.js",
       "_moment.9709ab41.js"
     ]
   },
-  "_InvoiceModal.b23e2356.js": {
-    "file": "assets/InvoiceModal.b23e2356.js",
+  "_InvoiceModal.26281b50.js": {
+    "file": "assets/InvoiceModal.26281b50.js",
     "imports": [
       "resources/js/app.js",
       "_moment.9709ab41.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
   "resources/js/Pages/Admin/MunicipalityPage.vue": {
-    "file": "assets/MunicipalityPage.2bdb3133.js",
+    "file": "assets/MunicipalityPage.b8e39df0.js",
     "src": "resources/js/Pages/Admin/MunicipalityPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Pagination.0e0edfff.js",
-      "_AdminLayout.5b5996a3.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_Pagination.6d72d61b.js",
+      "_AdminLayout.8e413472.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_Dropdown.6a0edb48.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Admin/ProvincePage.vue": {
-    "file": "assets/ProvincePage.e5d376eb.js",
+    "file": "assets/ProvincePage.b6f16fda.js",
     "src": "resources/js/Pages/Admin/ProvincePage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Pagination.0e0edfff.js",
-      "_AdminLayout.5b5996a3.js",
+      "_Pagination.6d72d61b.js",
+      "_AdminLayout.8e413472.js",
       "resources/js/app.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_Dropdown.6a0edb48.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Admin/ReportPage.vue": {
-    "file": "assets/ReportPage.4b8d94ea.js",
+    "file": "assets/ReportPage.68bca34f.js",
     "src": "resources/js/Pages/Admin/ReportPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AdminLayout.5b5996a3.js",
-      "_ContentBox.31243bc9.js",
+      "_AdminLayout.8e413472.js",
+      "_ContentBox.6aa44b1c.js",
       "resources/js/app.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_Dropdown.6a0edb48.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Admin/UpdateOfficePage.vue": {
-    "file": "assets/UpdateOfficePage.6260561d.js",
+    "file": "assets/UpdateOfficePage.f38411b7.js",
     "src": "resources/js/Pages/Admin/UpdateOfficePage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ProvinceList.31f37863.js",
+      "_ProvinceList.f48fb055.js",
       "resources/js/app.js",
-      "_AdminLayout.5b5996a3.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
+      "_AdminLayout.8e413472.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js",
-      "_Dropdown.6a0edb48.js",
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/ArchivePage.vue": {
-    "file": "assets/ArchivePage.63bc773e.js",
+    "file": "assets/ArchivePage.26f85128.js",
     "src": "resources/js/Pages/ArchivePage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_ContentBox.31243bc9.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_ContentBox.6aa44b1c.js",
       "resources/js/app.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Auth/ConfirmPassword.vue": {
-    "file": "assets/ConfirmPassword.089f76a4.js",
+    "file": "assets/ConfirmPassword.7fc08ded.js",
     "src": "resources/js/Pages/Auth/ConfirmPassword.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout.d2b2f55d.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_GuestLayout.8ebc2a56.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
-  "_GuestLayout.d2b2f55d.js": {
-    "file": "assets/GuestLayout.d2b2f55d.js",
+  "_GuestLayout.8ebc2a56.js": {
+    "file": "assets/GuestLayout.8ebc2a56.js",
     "imports": [
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js",
@@ -500,86 +504,86 @@
     ]
   },
   "resources/js/Pages/Auth/ForgotPassword.vue": {
-    "file": "assets/ForgotPassword.14d4acf9.js",
+    "file": "assets/ForgotPassword.3c6639e7.js",
     "src": "resources/js/Pages/Auth/ForgotPassword.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout.d2b2f55d.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_GuestLayout.8ebc2a56.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
   "resources/js/Pages/Auth/Login.vue": {
-    "file": "assets/Login.8ad4c050.js",
+    "file": "assets/Login.00586233.js",
     "src": "resources/js/Pages/Auth/Login.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout.d2b2f55d.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_GuestLayout.8ebc2a56.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
   "resources/js/Pages/Auth/Register.vue": {
-    "file": "assets/Register.706f38ac.js",
+    "file": "assets/Register.75bd5261.js",
     "src": "resources/js/Pages/Auth/Register.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GuestLayout.d2b2f55d.js",
+      "_GuestLayout.8ebc2a56.js",
       "resources/js/app.js",
       "resources/js/Pages/Auth/ResgisterAsMunicipality.vue",
       "resources/js/Pages/Auth/RegisterAsProvince.vue",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js"
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js"
     ]
   },
   "resources/js/Pages/Auth/ResgisterAsMunicipality.vue": {
-    "file": "assets/ResgisterAsMunicipality.80034109.js",
+    "file": "assets/ResgisterAsMunicipality.d19083a5.js",
     "src": "resources/js/Pages/Auth/ResgisterAsMunicipality.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js"
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js"
     ]
   },
   "resources/js/Pages/Auth/RegisterAsProvince.vue": {
-    "file": "assets/RegisterAsProvince.39131f42.js",
+    "file": "assets/RegisterAsProvince.8ba1bf72.js",
     "src": "resources/js/Pages/Auth/RegisterAsProvince.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js"
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js"
     ]
   },
   "resources/js/Pages/Auth/ResetPassword.vue": {
-    "file": "assets/ResetPassword.e138e9d9.js",
+    "file": "assets/ResetPassword.91cf15ec.js",
     "src": "resources/js/Pages/Auth/ResetPassword.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_ProvinceLayout.4c891ccd.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
-      "_PrimaryButton.f80cd7f3.js",
-      "_MunicipalityLayout.b9816a59.js",
-      "_ContentBox.31243bc9.js",
+      "_ProvinceLayout.511325a9.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
+      "_PrimaryButton.4f7f1a0a.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_ContentBox.6aa44b1c.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ],
     "css": [
@@ -587,85 +591,85 @@
     ]
   },
   "resources/js/Pages/Auth/SetupAccount.vue": {
-    "file": "assets/SetupAccount.f3d1e29e.js",
+    "file": "assets/SetupAccount.7b44b7a0.js",
     "src": "resources/js/Pages/Auth/SetupAccount.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_InputError.6e8e5f7e.js"
+      "_InputError.0fe2a68f.js"
     ]
   },
   "resources/js/Pages/Auth/VerifyEmail.vue": {
-    "file": "assets/VerifyEmail.6d4365aa.js",
+    "file": "assets/VerifyEmail.4c6c1dad.js",
     "src": "resources/js/Pages/Auth/VerifyEmail.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_GuestLayout.d2b2f55d.js",
-      "_PrimaryButton.f80cd7f3.js",
+      "_GuestLayout.8ebc2a56.js",
+      "_PrimaryButton.4f7f1a0a.js",
       "_eprris.ccf75d97.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
   "resources/js/Pages/Equipment.vue": {
-    "file": "assets/Equipment.3070a0a6.js",
+    "file": "assets/Equipment.d1917268.js",
     "src": "resources/js/Pages/Equipment.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_Table.1a3b4bda.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_Table.b2ebaf81.js",
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
       "_moment.9709ab41.js"
     ]
   },
   "resources/js/Pages/EquipmentBackTrack.vue": {
-    "file": "assets/EquipmentBackTrack.db8ec898.js",
+    "file": "assets/EquipmentBackTrack.364b6819.js",
     "src": "resources/js/Pages/EquipmentBackTrack.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ProvinceLayout.4c891ccd.js",
-      "_MunicipalityLayout.b9816a59.js",
+      "_ProvinceLayout.511325a9.js",
+      "_MunicipalityLayout.92b79982.js",
       "resources/js/app.js",
-      "_ContentBox.31243bc9.js",
-      "_StatusModal.48d03335.js",
-      "_Pagination.0e0edfff.js",
+      "_ContentBox.6aa44b1c.js",
+      "_StatusModal.d03e5bad.js",
+      "_Pagination.6d72d61b.js",
       "_moment.9709ab41.js",
-      "_AdminLayout.5b5996a3.js",
+      "_AdminLayout.8e413472.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/EquipmentBackTrack.e20f30ce.css"
     ]
   },
   "resources/js/Pages/Equipments.vue": {
-    "file": "assets/Equipments.9497e2b7.js",
+    "file": "assets/Equipments.cb46f1ec.js",
     "src": "resources/js/Pages/Equipments.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_Table.1a3b4bda.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_Table.b2ebaf81.js",
       "resources/js/app.js",
-      "_CreateModal.8cd25677.js",
+      "_CreateModal.3c7e8465.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
       "_moment.9709ab41.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
   "resources/js/Pages/Error/MustVerify.vue": {
-    "file": "assets/MustVerify.c6466bd9.js",
+    "file": "assets/MustVerify.7be1de6a.js",
     "src": "resources/js/Pages/Error/MustVerify.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -673,136 +677,137 @@
     ]
   },
   "resources/js/Pages/LandingPage.vue": {
-    "file": "assets/LandingPage.9bf23fac.js",
+    "file": "assets/LandingPage.28acff6b.js",
     "src": "resources/js/Pages/LandingPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_InputError.6e8e5f7e.js",
-      "_TextInput.c1c642c1.js",
+      "_InputError.0fe2a68f.js",
+      "_TextInput.ea075d2c.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ],
     "css": [
-      "assets/LandingPage.baa15f48.css"
+      "assets/LandingPage.58f04993.css"
     ],
     "assets": [
       "assets/AFP.d54dd93e.png",
       "assets/DILG.681dd9c8.png",
       "assets/DOH.63aaa75f.png",
       "assets/OCD.9cefe553.png",
-      "assets/PNP.ba2f65d2.png"
+      "assets/PNP.ba2f65d2.png",
+      "assets/loginbackground.8bf34e11.png"
     ]
   },
   "resources/js/Pages/Province/ArchivePage.vue": {
-    "file": "assets/ArchivePage.07744172.js",
+    "file": "assets/ArchivePage.050b48ba.js",
     "src": "resources/js/Pages/Province/ArchivePage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ProvinceLayout.4c891ccd.js",
-      "_ContentBox.31243bc9.js",
+      "_ProvinceLayout.511325a9.js",
+      "_ContentBox.6aa44b1c.js",
       "resources/js/app.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Province/ConsolidatedPage.vue": {
-    "file": "assets/ConsolidatedPage.1a017233.js",
+    "file": "assets/ConsolidatedPage.b9a96023.js",
     "src": "resources/js/Pages/Province/ConsolidatedPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_ContentBox.31243bc9.js",
-      "_Table.1a3b4bda.js",
-      "_ProvinceLayout.4c891ccd.js",
-      "_Pagination.0e0edfff.js",
+      "_ContentBox.6aa44b1c.js",
+      "_Table.b2ebaf81.js",
+      "_ProvinceLayout.511325a9.js",
+      "_Pagination.6d72d61b.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Province/DashboardPage.vue": {
-    "file": "assets/DashboardPage.4acc29d3.js",
+    "file": "assets/DashboardPage.b8c9b048.js",
     "src": "resources/js/Pages/Province/DashboardPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_auto.2566e592.js",
+      "_auto.c60c8fcb.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_ContentBox.31243bc9.js",
-      "_ProvinceLayout.4c891ccd.js",
+      "_ContentBox.6aa44b1c.js",
+      "_ProvinceLayout.511325a9.js",
       "_moment.9709ab41.js",
-      "_Pagination.0e0edfff.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_Pagination.6d72d61b.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Province/RequestPage.vue": {
-    "file": "assets/RequestPage.7b9d6e56.js",
+    "file": "assets/RequestPage.81b76ecd.js",
     "src": "resources/js/Pages/Province/RequestPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ContentBox.31243bc9.js",
-      "_MunicipalityList.7fccfadf.js",
-      "_ProvinceLayout.4c891ccd.js",
+      "_ContentBox.6aa44b1c.js",
+      "_MunicipalityList.ae75e7b7.js",
+      "_ProvinceLayout.511325a9.js",
       "resources/js/app.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Province/TransactionPage.vue": {
-    "file": "assets/TransactionPage.a2a6d48b.js",
+    "file": "assets/TransactionPage.ee1412df.js",
     "src": "resources/js/Pages/Province/TransactionPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ContentBox.31243bc9.js",
-      "_ProvinceLayout.4c891ccd.js",
+      "_ContentBox.6aa44b1c.js",
+      "_ProvinceLayout.511325a9.js",
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Provinces.vue": {
-    "file": "assets/Provinces.2648144a.js",
+    "file": "assets/Provinces.ef5bcd17.js",
     "src": "resources/js/Pages/Provinces.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_Table.1a3b4bda.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_Table.b2ebaf81.js",
       "resources/js/app.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
       "_moment.9709ab41.js"
     ]
   },
   "resources/js/Pages/RecievedTransactionPage.vue": {
-    "file": "assets/RecievedTransactionPage.2f128804.js",
+    "file": "assets/RecievedTransactionPage.ea2c36ae.js",
     "src": "resources/js/Pages/RecievedTransactionPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
+      "_MunicipalityLayout.92b79982.js",
       "resources/js/app.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/Welcome.vue": {
-    "file": "assets/Welcome.0c6733fb.js",
+    "file": "assets/Welcome.06a9350d.js",
     "src": "resources/js/Pages/Welcome.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -810,231 +815,231 @@
     ]
   },
   "resources/js/Pages/localTransaction.vue": {
-    "file": "assets/localTransaction.81f4ed8c.js",
+    "file": "assets/localTransaction.7576bd23.js",
     "src": "resources/js/Pages/localTransaction.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityList.7fccfadf.js",
-      "_EquipmentList.7e7baa3a.js",
+      "_MunicipalityList.ae75e7b7.js",
+      "_EquipmentList.24dd800f.js",
       "resources/js/app.js",
-      "_MunicipalityLayout.b9816a59.js",
+      "_MunicipalityLayout.92b79982.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_ProvinceList.31f37863.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_ProvinceList.f48fb055.js",
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
-  "_EquipmentList.7e7baa3a.js": {
-    "file": "assets/EquipmentList.7e7baa3a.js",
+  "_EquipmentList.24dd800f.js": {
+    "file": "assets/EquipmentList.24dd800f.js",
     "imports": [
       "resources/js/app.js",
-      "_combobox.6aae7dde.js",
-      "_transition.b8c95726.js"
+      "_combobox.8fa2df8c.js",
+      "_transition.550b21f7.js"
     ]
   },
   "resources/js/Pages/municipality/BorrowAttrs.vue": {
-    "file": "assets/BorrowAttrs.bee1f156.js",
+    "file": "assets/BorrowAttrs.57319174.js",
     "src": "resources/js/Pages/municipality/BorrowAttrs.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_ContentBox.31243bc9.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_ContentBox.6aa44b1c.js",
       "__plugin-vue_export-helper.cdc0426e.js",
       "resources/js/app.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/municipality/FormPage.vue": {
-    "file": "assets/FormPage.ede95974.js",
+    "file": "assets/FormPage.579a9319.js",
     "src": "resources/js/Pages/municipality/FormPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_ContentBox.31243bc9.js",
-      "_MunicipalityLayout.b9816a59.js",
-      "_InputError.6e8e5f7e.js",
+      "_ContentBox.6aa44b1c.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_InputError.0fe2a68f.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/municipality/InventoryPage.vue": {
-    "file": "assets/InventoryPage.6f36e412.js",
+    "file": "assets/InventoryPage.33c3a9cd.js",
     "src": "resources/js/Pages/municipality/InventoryPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_CreateModal.8cd25677.js",
-      "_ContentBox.31243bc9.js",
-      "_Table.1a3b4bda.js",
-      "_MunicipalityLayout.b9816a59.js",
-      "_Pagination.0e0edfff.js",
-      "_auto.2566e592.js",
-      "_Dropdown.6a0edb48.js",
-      "_InvoiceModal.b23e2356.js",
+      "_CreateModal.3c7e8465.js",
+      "_ContentBox.6aa44b1c.js",
+      "_Table.b2ebaf81.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_Pagination.6d72d61b.js",
+      "_auto.c60c8fcb.js",
+      "_Dropdown.38f40bcb.js",
+      "_InvoiceModal.26281b50.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
-      "_PendingTransactions.4e98a45c.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
+      "_PendingTransactions.b0a53db4.js",
       "_eprris.ccf75d97.js"
     ],
     "css": [
-      "assets/InventoryPage.b29d2347.css",
+      "assets/InventoryPage.c538ae23.css",
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
   "resources/js/Pages/municipality/InvoicePage.vue": {
-    "file": "assets/InvoicePage.26e0dc32.js",
+    "file": "assets/InvoicePage.e37221f3.js",
     "src": "resources/js/Pages/municipality/InvoicePage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_Table.1a3b4bda.js",
-      "_ContentBox.31243bc9.js",
-      "_AddIncident.058dfbd6.js",
-      "_QuantityModal.8c26a982.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_Table.b2ebaf81.js",
+      "_ContentBox.6aa44b1c.js",
+      "_AddIncident.614741c5.js",
+      "_QuantityModal.39728008.js",
       "resources/js/app.js",
-      "_PersonInfoModal.98ffc01e.js",
+      "_PersonInfoModal.32beabed.js",
       "_moment.9709ab41.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
-      "_EquipmentList.7e7baa3a.js",
-      "_combobox.6aae7dde.js",
-      "_ProvinceList.31f37863.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
+      "_EquipmentList.24dd800f.js",
+      "_combobox.8fa2df8c.js",
+      "_ProvinceList.f48fb055.js"
     ],
     "css": [
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
-  "_AddIncident.058dfbd6.js": {
-    "file": "assets/AddIncident.058dfbd6.js",
+  "_AddIncident.614741c5.js": {
+    "file": "assets/AddIncident.614741c5.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
-      "_EquipmentList.7e7baa3a.js",
-      "_ProvinceList.31f37863.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
+      "_EquipmentList.24dd800f.js",
+      "_ProvinceList.f48fb055.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_QuantityModal.8c26a982.js"
+      "_QuantityModal.39728008.js"
     ],
     "css": [
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
-  "_QuantityModal.8c26a982.js": {
-    "file": "assets/QuantityModal.8c26a982.js",
+  "_QuantityModal.39728008.js": {
+    "file": "assets/QuantityModal.39728008.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
-  "_PersonInfoModal.98ffc01e.js": {
-    "file": "assets/PersonInfoModal.98ffc01e.js",
+  "_PersonInfoModal.32beabed.js": {
+    "file": "assets/PersonInfoModal.32beabed.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
   "resources/js/Pages/municipality/PartialsPage.vue": {
-    "file": "assets/PartialsPage.a7f6a23a.js",
+    "file": "assets/PartialsPage.b64d794f.js",
     "src": "resources/js/Pages/municipality/PartialsPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ContentBox.31243bc9.js",
-      "_MunicipalityLayout.b9816a59.js",
+      "_ContentBox.6aa44b1c.js",
+      "_MunicipalityLayout.92b79982.js",
       "resources/js/app.js",
-      "_BorrowHistory.f7ed9e40.js",
-      "_UnfinishModal.084afa53.js",
+      "_BorrowHistory.8bcf58b4.js",
+      "_UnfinishModal.a5236522.js",
       "_moment.9709ab41.js",
-      "_PersonInfoModal.98ffc01e.js",
+      "_PersonInfoModal.32beabed.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_EditHistory.169ed0a6.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_EditHistory.63725f56.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
-  "_BorrowHistory.f7ed9e40.js": {
-    "file": "assets/BorrowHistory.f7ed9e40.js",
+  "_BorrowHistory.8bcf58b4.js": {
+    "file": "assets/BorrowHistory.8bcf58b4.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
-  "_UnfinishModal.084afa53.js": {
-    "file": "assets/UnfinishModal.084afa53.js",
+  "_UnfinishModal.a5236522.js": {
+    "file": "assets/UnfinishModal.a5236522.js",
     "imports": [
       "resources/js/app.js",
-      "_EditHistory.169ed0a6.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_EditHistory.63725f56.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
   "resources/js/Pages/municipality/ReportPage.vue": {
-    "file": "assets/ReportPage.10f6a398.js",
+    "file": "assets/ReportPage.b2dd63d6.js",
     "src": "resources/js/Pages/municipality/ReportPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_ContentBox.31243bc9.js",
-      "_MunicipalityLayout.b9816a59.js",
-      "_IncidentReport.980e0e55.js",
+      "_ContentBox.6aa44b1c.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_IncidentReport.1acb6551.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
-  "_IncidentReport.980e0e55.js": {
-    "file": "assets/IncidentReport.980e0e55.js",
+  "_IncidentReport.1acb6551.js": {
+    "file": "assets/IncidentReport.1acb6551.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper.cdc0426e.js"
     ]
   },
   "resources/js/Pages/municipality/RequestPage.vue": {
-    "file": "assets/RequestPage.6360c2f6.js",
+    "file": "assets/RequestPage.676dd36a.js",
     "src": "resources/js/Pages/municipality/RequestPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_ContentBox.31243bc9.js",
-      "_MunicipalityLayout.b9816a59.js",
-      "_EquipmentList.7e7baa3a.js",
-      "_AddIncident.058dfbd6.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
-      "_Pagination.0e0edfff.js",
+      "_ContentBox.6aa44b1c.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_EquipmentList.24dd800f.js",
+      "_AddIncident.614741c5.js",
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
+      "_Pagination.6d72d61b.js",
       "_moment.9709ab41.js",
-      "_InvoiceModal.b23e2356.js",
+      "_InvoiceModal.26281b50.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_combobox.6aae7dde.js",
-      "_ProvinceList.31f37863.js",
-      "_QuantityModal.8c26a982.js"
+      "_combobox.8fa2df8c.js",
+      "_ProvinceList.f48fb055.js",
+      "_QuantityModal.39728008.js"
     ],
     "css": [
       "assets/RequestPage.3d788488.css",
@@ -1042,94 +1047,94 @@
     ]
   },
   "resources/js/Pages/municipality/ShowPartialPage.vue": {
-    "file": "assets/ShowPartialPage.18179cfe.js",
+    "file": "assets/ShowPartialPage.20c18c22.js",
     "src": "resources/js/Pages/municipality/ShowPartialPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_Table.1a3b4bda.js",
-      "_ContentBox.31243bc9.js",
-      "_AddIncident.058dfbd6.js",
-      "_QuantityModal.8c26a982.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_Table.b2ebaf81.js",
+      "_ContentBox.6aa44b1c.js",
+      "_AddIncident.614741c5.js",
+      "_QuantityModal.39728008.js",
       "resources/js/app.js",
-      "_UnfinishModal.084afa53.js",
+      "_UnfinishModal.a5236522.js",
       "_moment.9709ab41.js",
-      "_PersonInfoModal.98ffc01e.js",
-      "_PersonalModal.63a0d263.js",
+      "_PersonInfoModal.32beabed.js",
+      "_PersonalModal.08abae29.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js",
-      "_EquipmentList.7e7baa3a.js",
-      "_combobox.6aae7dde.js",
-      "_ProvinceList.31f37863.js",
-      "_EditHistory.169ed0a6.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js",
+      "_EquipmentList.24dd800f.js",
+      "_combobox.8fa2df8c.js",
+      "_ProvinceList.f48fb055.js",
+      "_EditHistory.63725f56.js"
     ],
     "css": [
       "assets/LocalTransactions.dcbacba3.css"
     ]
   },
-  "_PersonalModal.63a0d263.js": {
-    "file": "assets/PersonalModal.63a0d263.js",
+  "_PersonalModal.08abae29.js": {
+    "file": "assets/PersonalModal.08abae29.js",
     "imports": [
       "resources/js/app.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
   "resources/js/Pages/municipality/TransactionPage.vue": {
-    "file": "assets/TransactionPage.eec67661.js",
+    "file": "assets/TransactionPage.c5552af2.js",
     "src": "resources/js/Pages/municipality/TransactionPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_ContentBox.31243bc9.js",
-      "_MunicipalityLayout.b9816a59.js",
+      "_ContentBox.6aa44b1c.js",
+      "_MunicipalityLayout.92b79982.js",
       "resources/js/app.js",
-      "_BorrowHistory.f7ed9e40.js",
-      "_IncidentReport.980e0e55.js",
+      "_BorrowHistory.8bcf58b4.js",
+      "_IncidentReport.1acb6551.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js"
     ]
   },
   "resources/js/Pages/municipality/Transactions/ApprovalPage.vue": {
-    "file": "assets/ApprovalPage.2612e90c.js",
+    "file": "assets/ApprovalPage.6822d76d.js",
     "src": "resources/js/Pages/municipality/Transactions/ApprovalPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js",
-      "_MunicipalityLayout.b9816a59.js",
-      "_ContentBox.31243bc9.js",
-      "_PersonalModal.63a0d263.js",
-      "_QuantityModal.8c26a982.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_ContentBox.6aa44b1c.js",
+      "_PersonalModal.08abae29.js",
+      "_QuantityModal.39728008.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ]
   },
   "resources/js/Pages/municipality/Transactions/HistoricalPage.vue": {
-    "file": "assets/HistoricalPage.49037eb4.js",
+    "file": "assets/HistoricalPage.43ebf744.js",
     "src": "resources/js/Pages/municipality/Transactions/HistoricalPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MunicipalityLayout.b9816a59.js",
-      "_ContentBox.31243bc9.js",
-      "_Modal.6cc3e75f.js",
+      "_MunicipalityLayout.92b79982.js",
+      "_ContentBox.6aa44b1c.js",
+      "_Modal.41f6a2c2.js",
       "_moment.9709ab41.js",
       "resources/js/app.js",
-      "_EditHistory.169ed0a6.js",
+      "_EditHistory.63725f56.js",
       "__plugin-vue_export-helper.cdc0426e.js",
-      "_PendingTransactions.4e98a45c.js",
-      "_Dropdown.6a0edb48.js",
+      "_PendingTransactions.b0a53db4.js",
+      "_Dropdown.38f40bcb.js",
       "_eprris.ccf75d97.js",
-      "_dialog.aec603e9.js",
-      "_transition.b8c95726.js"
+      "_dialog.cf43474d.js",
+      "_transition.550b21f7.js"
     ],
     "css": [
       "assets/HistoricalPage.b4fd12dc.css"
@@ -1139,49 +1144,17 @@
     "file": "assets/app.467431b4.css",
     "src": "resources/js/app.css"
   },
-  "MunicipalityLayout.css": {
-    "file": "assets/MunicipalityLayout.04b2e9cc.css",
-    "src": "MunicipalityLayout.css"
-  },
-  "resources/js/Pages/Admin/EquipmentBackTrack.css": {
-    "file": "assets/EquipmentBackTrack.66c5e815.css",
-    "src": "resources/js/Pages/Admin/EquipmentBackTrack.css"
-  },
-  "StatusModal.css": {
-    "file": "assets/StatusModal.00f35c69.css",
-    "src": "StatusModal.css"
-  },
   "resources/js/Pages/municipality/InventoryPage.css": {
-    "file": "assets/InventoryPage.b29d2347.css",
+    "file": "assets/InventoryPage.c538ae23.css",
     "src": "resources/js/Pages/municipality/InventoryPage.css"
   },
-  "ContentBox.css": {
-    "file": "assets/ContentBox.e165eabf.css",
-    "src": "ContentBox.css"
+  "resources/js/Pages/municipality/RequestPage.css": {
+    "file": "assets/RequestPage.3d788488.css",
+    "src": "resources/js/Pages/municipality/RequestPage.css"
   },
   "resources/js/Pages/municipality/Transactions/HistoricalPage.css": {
     "file": "assets/HistoricalPage.b4fd12dc.css",
     "src": "resources/js/Pages/municipality/Transactions/HistoricalPage.css"
-  },
-  "resources/js/Pages/LandingPage.css": {
-    "file": "assets/LandingPage.baa15f48.css",
-    "src": "resources/js/Pages/LandingPage.css"
-  },
-  "resources/js/Pages/Admin/InventoryPage.css": {
-    "file": "assets/InventoryPage.59e1b615.css",
-    "src": "resources/js/Pages/Admin/InventoryPage.css"
-  },
-  "resources/js/Pages/EquipmentBackTrack.css": {
-    "file": "assets/EquipmentBackTrack.e20f30ce.css",
-    "src": "resources/js/Pages/EquipmentBackTrack.css"
-  },
-  "LocalTransactions.css": {
-    "file": "assets/LocalTransactions.dcbacba3.css",
-    "src": "LocalTransactions.css"
-  },
-  "GuestLayout.css": {
-    "file": "assets/GuestLayout.d354fce7.css",
-    "src": "GuestLayout.css"
   },
   "resources/js/Pages/Auth/ResetPassword.css": {
     "file": "assets/ResetPassword.d90093aa.css",
@@ -1191,8 +1164,40 @@
     "file": "assets/HistoricalPage.aa33a23a.css",
     "src": "resources/js/Pages/Admin/HistoricalPage.css"
   },
-  "resources/js/Pages/municipality/RequestPage.css": {
-    "file": "assets/RequestPage.3d788488.css",
-    "src": "resources/js/Pages/municipality/RequestPage.css"
+  "StatusModal.css": {
+    "file": "assets/StatusModal.00f35c69.css",
+    "src": "StatusModal.css"
+  },
+  "MunicipalityLayout.css": {
+    "file": "assets/MunicipalityLayout.04b2e9cc.css",
+    "src": "MunicipalityLayout.css"
+  },
+  "resources/js/Pages/LandingPage.css": {
+    "file": "assets/LandingPage.58f04993.css",
+    "src": "resources/js/Pages/LandingPage.css"
+  },
+  "resources/js/Pages/Admin/InventoryPage.css": {
+    "file": "assets/InventoryPage.59e1b615.css",
+    "src": "resources/js/Pages/Admin/InventoryPage.css"
+  },
+  "ContentBox.css": {
+    "file": "assets/ContentBox.e165eabf.css",
+    "src": "ContentBox.css"
+  },
+  "resources/js/Pages/Admin/EquipmentBackTrack.css": {
+    "file": "assets/EquipmentBackTrack.66c5e815.css",
+    "src": "resources/js/Pages/Admin/EquipmentBackTrack.css"
+  },
+  "LocalTransactions.css": {
+    "file": "assets/LocalTransactions.dcbacba3.css",
+    "src": "LocalTransactions.css"
+  },
+  "resources/js/Pages/EquipmentBackTrack.css": {
+    "file": "assets/EquipmentBackTrack.e20f30ce.css",
+    "src": "resources/js/Pages/EquipmentBackTrack.css"
+  },
+  "GuestLayout.css": {
+    "file": "assets/GuestLayout.d354fce7.css",
+    "src": "GuestLayout.css"
   }
 }
