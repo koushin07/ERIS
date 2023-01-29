@@ -3,8 +3,8 @@ composer install --no-dev --working-dir=/var/www/html
 echo "this is the version of your composer"
 composer --version
 
-echo "npm install"
-npm install 
+echo "Running npm build..."
+npm run build --prefix /var/www/html
 
 echo "Caching config..."
 php artisan config:cache
