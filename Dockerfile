@@ -2,7 +2,7 @@ FROM richarvey/nginx-php-fpm:1.7.2
 
 COPY . .
 
-RUN  sudo apt install php8.0-cli php8.0-common php8.0-imap php8.0-redis php8.0-xml php8.0-zip php8.0-mbstring
+/bin/sh -c sudo apt install php8.0-cli php8.0-common php8.0-imap php8.0-redis php8.0-xml php8.0-zip php8.0-mbstring
 
 
 # Image config
