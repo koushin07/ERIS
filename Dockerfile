@@ -1,11 +1,7 @@
-FROM richarvey/nginx-php-fpm:1.7.2
+FROM richarvey/nginx-php-fpm:2.2.0
 
 COPY . .
 
-RUN apk add --no-cache ${PHPIZE_DEPS} && \
-    pecl install ds && \
-    docker-php-ext-enable ds
-    
    
 
 
