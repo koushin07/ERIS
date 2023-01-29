@@ -3,8 +3,7 @@ FROM richarvey/nginx-php-fpm:latest
 COPY . .
 
    
-RUN apk add --update nodejs nodejs-npm
-
+RUN apk add --update nodejs npm
 
 # Image config
 ENV SKIP_COMPOSER 1
