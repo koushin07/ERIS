@@ -5,57 +5,18 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Container\Container;
-use Faker\Generator;
+
 use Database\Seeders\RoleSeeder;
-use Database\Seeders\ReturnedSeeder;
-use Database\Seeders\EquipmentOWnedSeeder;
-use Database\Seeders\EquipmentDetailSeeder;
-use Database\Seeders\EquipmentAttributeSeeder;
-use Database\Seeders\ApprovalSeeder;
+
 use App\Models\Role;
 use App\Models\Office;
-use App\Models\EquipmentOwned;
-use App\Models\EquipmentDetail;
-use App\Models\EquipmentAttribute;
-use App\Models\Equipment;
+
 use App\Models\AssignOffice;
 
 class DatabaseSeeder extends Seeder
 {
 
-    /**
-     * The current Faker instance.
-     *
-     * @var \Faker\Generator
-     */
-    protected $faker;
-
-    /**
-     * Create a new seeder instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->faker = $this->withFaker();
-    }
-
-    /**
-     * Get a new Faker instance.
-     *
-     * @return \Faker\Generator
-     */
-    protected function withFaker()
-    {
-        return Container::getInstance()->make(Generator::class);
-    }
-
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
+   
     public function run()
     {
 
@@ -187,19 +148,7 @@ class DatabaseSeeder extends Seeder
             $provAssign = AssignOffice::create([
                 'province' => $province,
             ]);
-            // Office::create([
-            //     'firstname' => $this->faker->firstName(),
-            //     'lastname' => $this->faker->lastName(),
-            //     'middlename' => $this->faker->lastName(),
-            //     'suffix' => $this->faker->suffix(),
-            //     'address' => $this->faker->address(),
-            //     'contact' => $this->faker->phoneNumber(),
-            //     'email' => $province . "@gov.ph",
-            //     'password' => bcrypt($province),
-            //     'must_reset_password' => false,
-            //     'assign' => $provAssign->id,
-            //     'role_id' => $provinceRole->id,
-            // ]);
+           
             foreach ($municipalities as $municipality => $coordinate) {
                 $count = 1;
                 $assign =  AssignOffice::create([
@@ -208,50 +157,10 @@ class DatabaseSeeder extends Seeder
                     'latitude' => $coordinate[0],
                     'longitude' => $coordinate[1]
                 ]);
-                // $email = Office::where('email', $municipality . '@gov.ph')->first();
-                // if ($email) {
-                //     Office::create([
-                //         'firstname' => $this->faker->firstName(),
-                //         'lastname' => $this->faker->lastName(),
-                //         'middlename' => $this->faker->lastName(),
-                //         'suffix' => $this->faker->suffix(),
-                //         'address' => $this->faker->address(),
-                //         'contact' => $this->faker->phoneNumber(),
-                //         'must_reset_password' => false,
-                //         'email' => $municipality . "" . $count . "@gov.ph",
-                //         'password' => bcrypt($municipality),
-                //         'assign' => $assign->id,
-                //         'role_id' => $muniRole->id,
-                //     ]);
-                //     $count++;
-                // } else {
-                //     Office::create([
-                //         'firstname' => $this->faker->firstName(),
-                //         'lastname' => $this->faker->lastName(),
-                //         'middlename' => $this->faker->lastName(),
-                //         'suffix' => $this->faker->suffix(),
-                //         'address' => $this->faker->address(),
-                //         'contact' => $this->faker->phoneNumber(),
-                //         'must_reset_password' => false,
-                //         'email' => $municipality . "@gov.ph",
-                //         'password' => bcrypt($municipality),
-                //         'assign' => $assign->id,
-                //         'role_id' => $muniRole->id,
-                //     ]);
-                // }
+                
             }
         }
 
-        // $this->call(
-        //     [
-        //         EquipmentAttributeSeeder::class,
-        //         equipmentSeeder::class,
-
-        //     ]
-        // );
-
-        // $this->call(
-        //     ApprovalSeeder::class
-        // );
+       
     }
 }
