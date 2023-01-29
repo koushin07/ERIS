@@ -1,5 +1,5 @@
 echo "Running composer"
-composer global require hirak/prestissimo
+composer global require hirak/prestissimo --ignore-platform-reqs
 composer install --no-dev --working-dir=/var/www/html
 
 
