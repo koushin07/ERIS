@@ -24,7 +24,6 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 RUN apk add --no-cache composer
 
 # Initialize Composer
-RUN composer init
-
+RUN composer init --name=myapp --type=project
 
 CMD ["/start.sh"] 
