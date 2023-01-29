@@ -17,3 +17,4 @@ php artisan migrate --force
 
 echo "Seeding..."
 php artisan db:seed
+yes
