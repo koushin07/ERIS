@@ -1,7 +1,10 @@
 echo "Running composer"
 composer global require hirak/prestissimo
-composer update
 composer install --no-dev --working-dir=/var/www/html
+composer update
+
+echo "npm install"
+npm install 
 
 echo "Caching config..."
 php artisan config:cache
