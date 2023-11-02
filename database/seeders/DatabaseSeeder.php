@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use Illuminate\Database\Seeder;
+<<<<<<< HEAD
 use Illuminate\Container\Container;
 use Faker\Generator;
 use Database\Seeders\RoleSeeder;
@@ -19,43 +20,20 @@ use App\Models\EquipmentOwned;
 use App\Models\EquipmentDetail;
 use App\Models\EquipmentAttribute;
 use App\Models\Equipment;
+=======
+
+use Database\Seeders\RoleSeeder;
+
+use App\Models\Role;
+use App\Models\Office;
+
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
 use App\Models\AssignOffice;
 
 class DatabaseSeeder extends Seeder
 {
 
-    /**
-     * The current Faker instance.
-     *
-     * @var \Faker\Generator
-     */
-    protected $faker;
-
-    /**
-     * Create a new seeder instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->faker = $this->withFaker();
-    }
-
-    /**
-     * Get a new Faker instance.
-     *
-     * @return \Faker\Generator
-     */
-    protected function withFaker()
-    {
-        return Container::getInstance()->make(Generator::class);
-    }
-
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
+   
     public function run()
     {
 
@@ -187,6 +165,7 @@ class DatabaseSeeder extends Seeder
             $provAssign = AssignOffice::create([
                 'province' => $province,
             ]);
+<<<<<<< HEAD
             // Office::create([
             //     'firstname' => $this->faker->firstName(),
             //     'lastname' => $this->faker->lastName(),
@@ -200,6 +179,9 @@ class DatabaseSeeder extends Seeder
             //     'assign' => $provAssign->id,
             //     'role_id' => $provinceRole->id,
             // ]);
+=======
+           
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
             foreach ($municipalities as $municipality => $coordinate) {
                 $count = 1;
                 $assign =  AssignOffice::create([
@@ -208,6 +190,7 @@ class DatabaseSeeder extends Seeder
                     'latitude' => $coordinate[0],
                     'longitude' => $coordinate[1]
                 ]);
+<<<<<<< HEAD
                 // $email = Office::where('email', $municipality . '@gov.ph')->first();
                 // if ($email) {
                 //     Office::create([
@@ -253,5 +236,12 @@ class DatabaseSeeder extends Seeder
         // $this->call(
         //     ApprovalSeeder::class
         // );
+=======
+                
+            }
+        }
+
+       
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
     }
 }

@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 use Maatwebsite\Excel\Facades\Excel;
+=======
+// use Maatwebsite\Excel\Facades\Excel;
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
@@ -203,10 +207,17 @@ Route::group(['middleware' => ['auth', 'isSetup']], function () {
 
         }
         );
+<<<<<<< HEAD
         Route::get('/export/incident', function ($id) {
             return Excel::download(new IncidentExport($id), 'Incident-Report.xlsx');
          }
         );
+=======
+        // Route::get('/export/incident', function ($id) {
+        //     return Excel::download(new IncidentExport($id), 'Incident-Report.xlsx');
+        //  }
+        // );
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
         Route::get('/add-quantity/{id}', function (Request $request, $id) {
             $detail = EquipmentDetail::find($id);
                 // dd($detail, $request->serviceable, $id);
@@ -218,6 +229,7 @@ Route::group(['middleware' => ['auth', 'isSetup']], function () {
                 return back();
         }
         );
+<<<<<<< HEAD
     });
     /* 
                                                     !! END API ENDPOINTS !!
@@ -282,5 +294,71 @@ Route::group(['middleware' => ['auth', 'isSetup']], function () {
         $path = "../public/storage/" . $cut;
 
         return response()->file('../public/storage/xJS1r89ziM1SkL7il4JG2C1Dnc8EqOEdRb1rFXMr.pdf',  $headers);
+=======
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
     });
+    /* 
+                                                    !! END API ENDPOINTS !!
+    */
+
+    // Route::get('/viewFile', function () {
+    //     // return Excel::download(new InventorySummary, 'users.xlsx');
+    //     return view('export.invoice', [
+    //         'invoices' => Equipment::select([
+    //             'equipment.name',
+    //             'equipment_attributes.*',
+    //             'equipment_details.serviceable',
+    //             'equipment_details.poor',
+    //             'equipment_details.unusable'
+    //         ])
+
+    //             ->join('equipment_owneds', 'equipment_owneds.equipment_id', '=', 'equipment.id')
+    //             ->join('equipment_details', 'equipment_details.equipment_owner', '=', 'equipment_owneds.id')
+    //             ->join('offices', 'offices.id', '=', 'equipment_owneds.office_id')
+    //             ->join('assign_offices', 'assign_offices.id', '=', 'offices.assign')
+    //             ->join('equipment_attributes', 'equipment_attributes.id', '=', 'equipment_owneds.equipment_attrs')
+    //             ->where('equipment_owneds.office_id', auth()->id())->latest()
+    //             ->get(),
+    //         'office' => auth()->user(),
+    //         'date' => Carbon::now()->format('F d Y ')
+
+    //     ]);
+    //     $sheet = 6;
+    //     $q = DB::table('equipment')->select([
+    //         'equipment.name',
+    //         'equipment_attributes.*'
+    //     ])->join('equipment_owneds', 'equipment_owneds.equipment_id', '=', 'equipment.id')
+    //         ->join('equipment_details', 'equipment_details.equipment_owner', '=', 'equipment_owneds.id')
+    //         ->join('offices', 'offices.id', '=', 'equipment_owneds.office_id')
+    //         ->join('assign_offices', 'assign_offices.id', '=', 'offices.assign')
+    //         ->join('equipment_attributes', 'equipment_attributes.id', '=', 'equipment_owneds.equipment_attrs')
+    //         ->where('equipment_owneds.office_id', auth()->id())->latest()
+    //         ->get()->filter(function ($e, $k) use ($sheet) {
+    //             $sheet++;
+    //             dd($e, $k);
+    //         });
+
+    //     dd($q, $sheet);
+    //     $ge = new Collection();
+
+    //     for ($i = 0; $i < $q->count(); $i++) {
+
+    //         $ge->push($q[$i]);
+    //         $ge->push($sheet);
+    //         $sheet++;
+    //     }
+    //     return $ge;
+    //     return Equipment::find('97e16919-e8ca-433d-ba52-8a98b5381ad4')->with(['equipment_owned' => function ($q) {
+    //         $q->with('equipment_attribute')->first();
+    //     }])->first();
+
+    //     $report = IncidentReport::findOrFail('97be6896-5b89-4171-b0e8-0a96bf97c388');
+    //     $headers = array(
+    //         'Content-Type: application/pdf',
+    //     );
+    //     $cut = ltrim($report->file_path, "public/");
+    //     $path = "../public/storage/" . $cut;
+
+    //     return response()->file('../public/storage/xJS1r89ziM1SkL7il4JG2C1Dnc8EqOEdRb1rFXMr.pdf',  $headers);
+    // });
 });

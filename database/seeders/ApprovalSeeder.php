@@ -23,11 +23,15 @@ class ApprovalSeeder extends Seeder
      */
     protected $faker;
 
+<<<<<<< HEAD
     /**
      * Create a new seeder instance.
      *
      * @return void
      */
+=======
+   
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
     public function __construct()
     {
         $this->faker = $this->withFaker();

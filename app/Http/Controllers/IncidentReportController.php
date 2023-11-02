@@ -61,6 +61,7 @@ class IncidentReportController extends Controller
             // $doc_path = $request->file('docs')->store('public');
             $file = $request->file('docs');
 
+<<<<<<< HEAD
             $filenameWithoutExtension = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
 
             // Generate a file name with extension
@@ -74,12 +75,21 @@ class IncidentReportController extends Controller
             if ($incident) {
                 $incident->filename = $fileName;
                 $incident->file_path = $path;
+=======
+            $incident =  BorrowingDetails::find($request->id);
+            if ($incident) {
+                $incident->filename = $file->getClientOriginalName();
+                $incident->file_path = $doc_path;
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
                 $incident->INC_submitted_at = Carbon::now();
                 $incident->save();
             }
             // ReportSubmitted::dispatch(Office::find($incident->sender));
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
         return redirect('/municipality/request');
     }
 
@@ -94,10 +104,16 @@ class IncidentReportController extends Controller
         $cut = ltrim($report->file_path, "public/");
         // dd($cut, $report);
 
+<<<<<<< HEAD
 
         $path = "../public/storage/" . $cut;
 
         return response()->file('../storage/app/'.$report->file_path);
+=======
+        $path = "../public/storage/" . $cut;
+
+        return response()->file($path);
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
     }
 
     /**
@@ -219,7 +235,11 @@ class IncidentReportController extends Controller
             'incident_summary' => 'string'
         ]);
         // dd($request->date);
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> 3f758ad8680e6e358a109c2d094135b3bad4f466
 
         $borrowing = Borrowing::create([
             'borrower' => auth()->id(),
